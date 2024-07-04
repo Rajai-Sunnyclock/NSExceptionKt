@@ -18,10 +18,6 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/firebase/firebase-ios-sdk.git",
-            "9.3.0"..<"11.0.0"
-        ),
-        .package(
             url: "https://github.com/bugsnag/bugsnag-cocoa.git",
             "6.22.1"..<"7.0.0"
         )
